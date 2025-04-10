@@ -40,7 +40,7 @@ message = client.messages.create(
 )
 
 tag_formated = message.content[0].text.split(",")
-tag_final_form = "".join([ f"[[{tag}]]" for tag in tag_formated ])
+tag_final_form = "".join([ f"[[{tag}]] " for tag in tag_formated ])
 print("output:")
 print(tag_final_form)
 pyperclip.copy(tag_final_form)
