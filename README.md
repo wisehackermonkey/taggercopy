@@ -19,6 +19,9 @@
 cd ~
 git clone https://github.com/wisehackermonkey/taggercopy.git
 cd taggercopy
+pip install anthropic
+pip install dotenv
+pip install pyperclip
 ```
 
 # Summary
@@ -50,7 +53,7 @@ pip install openai
 pip install llama-index-llms-llamafile llama-index
 pip install pyperclip
 ```
-
+https://ai.google.dev/gemini-api/docs/quickstart?lang=python
 curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=API_KEY" \
 > -H 'Content-Type: application/json' \
 > -X POST \
