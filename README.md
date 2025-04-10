@@ -51,6 +51,15 @@ pip install llama-index-llms-llamafile llama-index
 pip install pyperclip
 ```
 
+curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=API_KEY" \
+> -H 'Content-Type: application/json' \
+> -X POST \
+> -d '{
+>   "contents": [{
+>     "parts":[{"text": "Explain how AI works"}]
+>     }]
+>    }'
+{
 ---
 # Links
 ###
