@@ -22,6 +22,7 @@ cd taggercopy
 pip install anthropic
 pip install dotenv
 pip install pyperclip
+python main.py
 ```
 
 # Summary
