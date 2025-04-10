@@ -39,6 +39,14 @@ cd taggercopy
 # Development
 ### 
 ```bash
+
+mv TinyLlama-1.1B-Chat-v1.0.Q5_K_M.llamafile ./llamafile/llama_tiny_1_1b.exe
+# or download from link https://huggingface.co/Mozilla/TinyLlama-1.1B-Chat-v1.0-llamafile/blob/main/TinyLlama-1.1B-Chat-v1.0.Q5_K_M.llamafile click on "download
+./llamafile/llama_tiny_1_1b.exe --server --v2 --embedding
+
+pip install openai
+pip install llama-index-llms-llamafile llama-index
+pip install pyperclip
 ```
 
 ---
